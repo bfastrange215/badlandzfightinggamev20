@@ -1,0 +1,15 @@
+{
+  "name": "philly-badlandz-arcade",
+  "version": "20.0.0",
+  "private": true,
+  "description": "3D online fighting game \u2022 12 fighters \u2022 Dan rigged with 14 native animations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
